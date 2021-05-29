@@ -162,7 +162,7 @@ span{
   .footer-col-3 .mobile li a{
     width: 50px;
     font-size: 30px;
-    margin-left: 60px;
+    margin-left: 90%;
   }
 
   .footer-col-4 .social-links{
@@ -212,7 +212,7 @@ span{
 
   .footer-col-4{
     margin-bottom: 10%;
-    
+    margin-left: 20%;
   }
 
   .footer-col-3 .desktop{
@@ -233,16 +233,16 @@ span{
     margin: 0 10px;
   }
   .footer-col-3 .mobile li a{
-    width: 50px;
+    width: 20%;
     font-size: 30px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   .footer-col-4 .social-links{
     display: inline;
     text-align: center;
     justify-content: center;
-    max-width: fit-content;
+    
   }
 
   .footer-col-4 a{
