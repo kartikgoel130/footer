@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  line-height: 1.5;
+}
+
+.footer{
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 70px 0 ;
+}
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+ul{
+  list-style: none;
+}
+
+.row{
+  display: flex;
+  flex: 25%;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+}
+
+.footer h3{
+  font-size: 18px;
+  color: #8a8a8a;
+  font-weight: 500;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.footer h3::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  width: 50px;
+}
+
+.footer-col-1 ul li:not(:last-child), .footer-col-2 ul li:not(:last-child), .footer-col-3 ul li:not(:last-child){
+  margin-bottom: 15px;
+}
+
+.footer-col-3 .mobile{
+  display: none;
+}
+
+.footer-col-1 ul li a, .footer-col-2 ul li a, .footer-col-3 ul li a{
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col-1 ul li a:hover, .footer-col-2 ul li a:hover, .footer-col-3 ul li a:hover{
+  text-decoration: underline;
+  padding-left: 2px;
+  transition: all 0.5s ease;
+}
+
+.footer-col-4 .social-links a{
+  display: inline-block;
+  margin-bottom: 15px;
+  
+}
+
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+  width: 25%;
+  padding: 0 15px;
+  margin-bottom: 20px;
+  letter-spacing: 0.01rem;
+}
+
+.row li{
+  list-style-type: none;
+  margin-bottom: 2rem;
+  font-size: medium;
+  color: azure;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+
+.footer-col-4 img{
+  max-width: 60%;
+}
+
+.logo{
+  width: 30px;
+  cursor: pointer;
+  margin-bottom: -10px;
+}
+
+.logo-mobile{
+  display: none;
+}
+
+span{
+  margin: 10px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  color: grey;
+  align-items: flex-start;
+}
+
+.fab{
+  margin: 10px;
+  color: #8a8a8a;
+}
+
+@media(max-width: 767px){
+  .footer-col-1, .footer-col-2 {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 20%;
+  }
+
+  .footer-col-3, .footer-col-4{
+    width: 100%;
+    margin-bottom: 1%;
+  } 
+
+  .footer-col-4{
+    margin-bottom: 10%;
+    margin-left: 20%;
+  }
+
+  .footer-col-3 .desktop{
+    display: none;
+  } 
+
+  .footer-col-3 h3{
+    display: none;
+  }
+  
+  .footer-col-3 .mobile{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 1rem 0 3rem 0;
+}
+  .footer-col-3 .mobile li{
+    margin: 0 10px;
+  }
+  .footer-col-3 .mobile li a{
+    width: 50px;
+    font-size: 30px;
+    margin-left: 60px;
+  }
+
+  .footer-col-4 .social-links{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .footer-col-4 a{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    width: 45%;
+    padding: 0;
+  }
+
+  .footer-col-4 h3{
+    display: none;
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .logo-mobile{
+    display: block;
+    margin-left: 40%;
+  }
+
+  .fa{
+    display: block;
+    margin-left: 45%;
+  }
+
+}
+@media(max-width: 574px){
+  .footer-col-1, .footer-col-2 {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 20%;
+  }
+
+  .footer-col-3, .footer-col-4{
+    width: 100%;
+    margin-bottom: 1%;
+  } 
+
+  .footer-col-4{
+    margin-bottom: 10%;
+    
+  }
+
+  .footer-col-3 .desktop{
+    display: none;
+  } 
+
+  .footer-col-3 h3{
+    display: none;
+  }
+  
+  .footer-col-3 .mobile{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 1rem 0 3rem 0;
+}
+  .footer-col-3 .mobile li{
+    margin: 0 10px;
+  }
+  .footer-col-3 .mobile li a{
+    width: 50px;
+    font-size: 30px;
+    margin-left: 40px;
+  }
+
+  .footer-col-4 .social-links{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    max-width: fit-content;
+  }
+
+  .footer-col-4 a{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    width: 45%;
+    padding: 0;
+  }
+  .footer-col-4 h3{
+    display: none;
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .logo-mobile{
+    display: block;
+    margin-left: 40%;
+  }
+
+  .fa{
+    display: block;
+    margin-left: 45%;
+  }
+
+
+
+}
+
+
+
+
+
