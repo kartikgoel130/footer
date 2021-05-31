@@ -153,6 +153,20 @@ span{
     font-size: 2rem;
   } 
 
+  .logo{
+    display: none;
+  }
+
+  .logo-mobile{
+    display: block;
+    margin-left: 40%;
+  }
+
+  .fa{
+    display: block;
+    margin-left: 45%;
+  }
+
   /* .footer-col-3 .desktop{
     display: none;
   } 
@@ -232,6 +246,20 @@ span{
 
   .footer-col-3 .mobile li a{
     font-size: 2rem;
+  }
+  
+  .logo{
+    display: none;
+  }
+
+  .logo-mobile{
+    display: block;
+    margin-left: 40%;
+  }
+
+  .fa{
+    display: block;
+    margin-left: 45%;
   } 
 
   
